@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Xyvera — найди людей</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <a href="/" class="logo">Xyvera</a>
+
+    <nav>
+        <a href="/search.html">Поиск</a>
+        <a href="/profile.html">Мой профиль</a>
+    </nav>
+</header>
+
+
+<main>
+
+    <section class="hero">
+
+        <h1>Найди людей<br>с похожими интересами.</h1>
+
+        <p>
+            Ищи людей по никам, играм, интересам и описанию.
+        </p>
+
+        <form id="searchForm" class="search-box">
+
+            <input
+                id="searchInput"
+                type="search"
+                placeholder="Например: games programming"
+                autocomplete="off"
+            >
+
+            <button type="submit">
+                Найти
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <section class="results-section">
+
+        <div class="section-title">
+            <h2>Люди</h2>
+            <span id="resultCount">0 результатов</span>
+        </div>
+
+        <div id="results" class="results">
+
+            <!-- Карточки пользователей появятся здесь -->
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <span>© 2026 Xyvera</span>
+</footer>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
